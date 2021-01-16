@@ -1,0 +1,67 @@
+.city{
+    display: flex;
+
+}
+
+.city-current{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.city-currentDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.city-currentDetails > div{
+    display: flex;
+    padding-left: 50px;
+    justify-content: flex-start;
+    padding-top: 1vh;
+    cursor: pointer;
+}
+
+.city-currentDetails > div>div{
+    display: flex;
+    width: 150px;
+    justify-content: flex-start;
+}
+
+.active{
+    background-color: palevioletred;
+}
+
+.tabcontent{
+    border: palevioletred solid 2px;
+}
+
+.city-currentTemp{
+    margin-left: 0 !important;
+    display: flex;
+    align-items: center;
+}
+
+.bigger{
+    font-size: 6vh;
+}
+
+.big{
+    font-size: 3vh;
+}
+
+.small{
+    font-size: 2vh;
+}
+
+.city-currentTemp>div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.city-currentName{
+    display: block !important;
+}
